@@ -1,4 +1,6 @@
 .app--container{
+    display: flex;
+    justify-content: center;
     
     width:550px;
     height: 860px;
