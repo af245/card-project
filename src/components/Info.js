@@ -9,7 +9,7 @@ export default function Info(){
     return(
         <div className='info--container'>
             <div className='picture'>
-                <img src={picture}/>
+                <img src={picture} className='pic'/>
             </div>
             <div className='description-container'>
                 <div className='name'>Laura Smith</div>

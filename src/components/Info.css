@@ -1,7 +1,17 @@
 .info--container{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pic{
+    border-radius: 10px 10px 0px 0px;
 }
 .name{
     color:#FFFFFF ;

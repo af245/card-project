@@ -1,8 +1,8 @@
 .app--container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
-    width:550px;
-    height: 860px;
-    background-color: #23252c;
+    width:317px;
+
+    background-color: #1A1B21;
 }
