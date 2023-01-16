@@ -5,16 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
-export default function Info(){
+export default function Info(props){
     return(
         <div className='info--container'>
             <div className='picture'>
                 <img src={picture} className='pic'/>
             </div>
             <div className='description-container'>
-                <div className='name'>Laura Smith</div>
-                <div className='career'>Frontend Developer</div>
-                <div className='website'>laurasmith.website</div>
+                <div className='name'>{props.name}</div>
+                <div className='career'>{props.career}</div>
+                <div className='website'>{props.website}</div>
             </div>
             <div className='buttons-container'>
                 <button className='btn--email'>
